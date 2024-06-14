@@ -8,16 +8,16 @@ public class Main {
         Alumno b = new Alumno("1022927904","Martinez","Camila");
         ce.addAlumno(a);
         ce.addAlumno(b);
-        a.addExamen(new ExamenEscrito(60,6));
+        a.addExamen(new ExamenEscrito(60,6,"13/06"));
        // a.addExamen(new ExamenEscrito(65,6));
        // a.addExamen(new ExamenEscrito(69,6));
         //a.addExamen(new ExamenOral(NivelSatisfaccion.EXCELENTE));
-        a.addExamen(new ExamenOral(NivelSatisfaccion.SUFICIENTE));
-        b.addExamen(new ExamenEscrito(60,6));
+        a.addExamen(new ExamenOral(NivelSatisfaccion.SUFICIENTE,"13/06"));
+        b.addExamen(new ExamenEscrito(60,6,"13/06"));
         //b.addExamen(new ExamenEscrito(65,6));
        // b.addExamen(new ExamenEscrito(69,6));
         //b.addExamen(new ExamenOral(NivelSatisfaccion.EXCELENTE));
-        b.addExamen(new ExamenOral(NivelSatisfaccion.SUFICIENTE));
+        b.addExamen(new ExamenOral(NivelSatisfaccion.SUFICIENTE,"13/06"));
         //a.addExamen(new ExamenEscrito(91,8));
 
         System.out.println(ce.cantidadAprobado());
