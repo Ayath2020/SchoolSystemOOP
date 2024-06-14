@@ -15,3 +15,5 @@ d
 4src/co/com/schoolsystempoo/models/ExamenEscrito.java,e\c\eca2ab1a89ac1ac216929cd134e9f9a72ab4dc81
 [
 +src/co/com/schoolsystempoo/models/Main.java,f\1\f1ec1e992f9c530c270134ba816cfb5824b9493a
+]
+-src/co/com/schoolsystempoo/models/Getter.java,e\1\e184e221dfcca7d84b868209edc47a5ee2d89098

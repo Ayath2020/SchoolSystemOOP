@@ -3,7 +3,8 @@ public class ExamenOral extends Examen{
 
     Enum <NivelSatisfaccion> ns;
 
-    public ExamenOral(NivelSatisfaccion ns) {
+    public ExamenOral(NivelSatisfaccion ns, String fecha) {
+        super(fecha);
         this.ns = ns;
     }
 

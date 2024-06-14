@@ -19,7 +19,7 @@ public class CentroEducativo {
 
         for (Alumno alumnos:alumnos) {
 
-            if (alumnos.approve() == true) {aprobados++;}
+            if (alumnos.aprobo()) {aprobados++;}
         }
         return aprobados;
     }
