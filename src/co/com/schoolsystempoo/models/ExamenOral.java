@@ -8,16 +8,11 @@ public class ExamenOral extends Examen{
         this.ns = ns;
     }
 
-    public static void main(String[] args) {
-        for (NivelSatisfaccion niveles: NivelSatisfaccion.values()) {
-            System.out.println( niveles + " = " + niveles.ordinal());
-        }
-    }
 
     @Override
     public boolean aprobo(){
 
-        if(ns.equals(NivelSatisfaccion.SUFICIENTE ) || ns.equals(NivelSatisfaccion.EXCELENTE)){
+        if(ns.ordinal() >= NivelSatisfaccion.SUFICIENTE.ordinal()){
             return true;
         }else {
             return false;
