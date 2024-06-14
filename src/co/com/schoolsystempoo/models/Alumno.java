@@ -3,7 +3,7 @@ package co.com.schoolsystempoo.models;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Alumno {
+public class Alumno implements Aprobable{
 
     private String DNI;
     private String apellido;
@@ -21,7 +21,7 @@ public class Alumno {
         examenes.add(examen);
     }
 
-    public boolean approve (){
+    public boolean aprobo (){
         boolean aprobo = true;
         CicloNotas:
          for (Examen examenes: examenes) {
